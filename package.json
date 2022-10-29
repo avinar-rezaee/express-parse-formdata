@@ -1,0 +1,22 @@
+{
+  "name": "express-parse-formdata",
+  "version": "1.0.0",
+  "description": "an express middleware to parse formdata",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avinar-rezaee/express-parse-formdata.git"
+  },
+  "author": "avinarrezaee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avinar-rezaee/express-parse-formdata/issues"
+  },
+  "homepage": "https://github.com/avinar-rezaee/express-parse-formdata#readme",
+  "dependencies": {
+    "busboy": "^1.6.0"
+  }
+}
