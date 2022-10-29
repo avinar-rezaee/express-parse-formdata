@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "an express middleware to parse formdata",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/avinar-rezaee/express-parse-formdata.git"
@@ -18,5 +16,13 @@
   "homepage": "https://github.com/avinar-rezaee/express-parse-formdata#readme",
   "dependencies": {
     "busboy": "^1.6.0"
-  }
+  },
+  "keywords": [
+    "parse form data",
+    "parse file data",
+    "parse multipart form data",
+    "express parse form data",
+    "express parse form data middleware",
+    "express parse file data"
+  ]
 }
