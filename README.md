@@ -30,7 +30,10 @@ app.use(parsFormData);
 app.post('/test', (req, res) => {
 
 	console.log(req.body);
-	// { foo: 'bar' }
+	// { 
+	// 	foo: 'bar',
+	// 	foo2: [ "bar2", "bar3"] 
+	// }
 
 	console.log(req.files);
 	// [
@@ -53,7 +56,10 @@ const { parsFormData } = require('express-parse-formdata');
 app.post('/test', parsFormData, (req, res) => {
 
 	console.log(req.body);
-	// { foo: 'bar' }
+	// { 
+	// 	foo: 'bar',
+	// 	foo2: [ "bar2", "bar3"] 
+	// }
 
 	console.log(req.files);
 	// [
@@ -76,6 +82,8 @@ const  formData = new  FormData();
 
 formData.append('file', file);
 formData.append('foo', 'bar');
+formData.append('foo2', 'bar2');
+formData.append('foo2', 'bar3');
 
 $.ajax({
 	url:  `/test`,

@@ -1,6 +1,6 @@
 {
   "name": "express-parse-formdata",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "an express middleware to parse formdata",
   "main": "index.js",
   "scripts": {},
