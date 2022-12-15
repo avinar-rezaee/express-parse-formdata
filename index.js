@@ -24,7 +24,8 @@ module.exports = {
         });
         bb.on('field', (name, val, info) => {
             if (!req.body) req.body = {};
-            req.body[name] = val
+            if (req.body[name]) req.body[name] = [].concat(req.body[name], val);
+            else req.body[name] = val
         });
         bb.on('close', () => {
             req.files = files;
